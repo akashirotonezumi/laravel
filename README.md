@@ -1,27 +1,19 @@
-# la_
-ララベル
+# Laravel
+ララベル実践
 
-# act
-- ララベルをインストール
-- DBはsqliteを使う＞env
-- 画像を保存する＞php artisan storage:link
-- Yamlを使う＞composer require symfony/yaml
+## 稼働ページ
+http://laravel.akshnezu.com/
 
-# テーブル作成
-- php artisan migrate:refresh
-- php artisan migrate:reset
+## 環境
+php + Sqlite
+
+## 展開手順
+- cd server_path
+- git clone repository_path/repository.git .
+- php ~/composer.phar install
+- cp .env.example .env
+- php artisan key:generate
+- cd database
+- touch database.sqlite
 - php artisan migrate
-- php artisan db:seed
--
-
-# clear
-- php artisan config:cache
-- composer dump-autoload
-- php artisan route:clear
-- php artisan optimize
--
-
-# 直接操作
-- php artisan tinker
-- App\FreeText::count();
--
+- php artisan storage:link
