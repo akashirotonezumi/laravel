@@ -1,0 +1,13 @@
+yaml:
+- name: あきら
+  hobby: 読書
+  role: つくる
+- name: あかね
+  hobby: ねること
+  role: 癒やし担当
+- name: あつし
+  hobby: あそぶこと
+  role: 癒やし担当
+- name: あさひ
+  hobby: 映画鑑賞
+  role: 癒やし担当
