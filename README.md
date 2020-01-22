@@ -1,9 +1,6 @@
 # Laravel
 ララベル実践
 
-## 稼働ページ
-http://laravel.akshnezu.com/
-
 ## 環境
 php + Sqlite
 
