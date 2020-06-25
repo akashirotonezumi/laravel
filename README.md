@@ -4,7 +4,28 @@
 ## 環境
 php + Sqlite
 
-## 展開手順
+
+
+# ローカルで確認する
+
+## 前提
+php --version
+composer --version
+laravel -v
+
+git clone . .
+cp .env.example ./.env
+touch ./database/database.sqlite
+
+composer install
+
+php artisan --version
+php artisan key:generate
+php artisan storage:link
+// php artisan migrate
+
+
+
 - cd server_path
 - git clone repository_path/repository.git .
 - php ~/composer.phar install
