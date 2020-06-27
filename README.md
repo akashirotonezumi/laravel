@@ -13,6 +13,10 @@ php + Sqlite
 ```composer --version```  
 ```laravel -v```  
 
+## phpの設定
+php.iniでextension=pdo_sqliteのコメント化を外しておく
+
+
 ## git clone . .  
 ```cp .env.example ./.env```  
 ```touch ./database/database.sqlite```  
@@ -22,7 +26,7 @@ php + Sqlite
 ```php artisan --version```  
 ```php artisan key:generate```  
 ```php artisan storage:link```  
-// php artisan migrate
+```php artisan migrate```  
 
 ## 立ち上げ
 ```php artisan serve```
