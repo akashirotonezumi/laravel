@@ -14,7 +14,11 @@ php + Sqlite
 ```laravel -v```  
 
 ## phpの設定
-php.iniでextension=pdo_sqliteのコメント化を外しておく
+php.iniで
+- extension=pdo_sqlite
+- extension=fileinfo
+
+のコメント化を外しておく
 
 
 ## git clone . .  
