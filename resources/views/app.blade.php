@@ -6,8 +6,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
-    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/app.css" />
+    <script src="/js/app.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
@@ -25,6 +25,9 @@
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{route('freeImage')}}">画像投稿</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{{route('blog')}}">ブログ</a>
     </li>
 </div>
 </nav>
