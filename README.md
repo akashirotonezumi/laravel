@@ -2,7 +2,7 @@
 ララベル実践
 
 ## 環境
-php + Sqlite
+PHP + Sqlite
 
 
 
@@ -26,14 +26,21 @@ php.iniで
 
 ```composer install```  
 
-```php artisan --version```  
-```php artisan key:generate```  
-```php artisan storage:link```  
-```php artisan migrate```  
-```php artisan db:seed```
+```
+php artisan --version
+php artisan key:generate
+php artisan storage:link
+php artisan migrate
+php artisan db:seed
+```
 
 ## 立ち上げ
-```php artisan serve```
+```
+php artisan serve
+```
+
+### アクセス
+http://127.0.0.1:8000
 
 
 
@@ -49,7 +56,10 @@ php.iniで
 
  
 - sqlite削除リセット  
-    rm ./database/database.sqlite  
-    touch ./database/database.sqlite  
-    php artisan migrate  
-    php artisan db:seed  
+```
+rm ./database/database.sqlite  
+touch ./database/database.sqlite  
+php artisan migrate  
+php artisan db:seed  
+```
+
